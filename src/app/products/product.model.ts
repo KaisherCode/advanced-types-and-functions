@@ -7,10 +7,10 @@ export interface Product extends BaseModel {
   image: string;
   description: string;
   stock: number;
-  size?: Sizes;
   color: string;
   price: number;
   category: Category;
   isNew: boolean;
   tags: string[];
+  size?: Sizes;
 }
